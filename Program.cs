@@ -14,7 +14,16 @@ namespace Program
 			{
 				case "yes":
 					{
-						Console.WriteLine("Good\nLet us begin...");		
+						Console.WriteLine("Good\nLet us begin...");	
+						Console.ReadLine();
+						break;
+					}
+					
+				case "no":
+					{
+						Console.WriteLine("Goodbye");
+						Console.ReadLine();
+						break;
 					}
 			}
 		}
