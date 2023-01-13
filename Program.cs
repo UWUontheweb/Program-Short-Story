@@ -4,11 +4,11 @@ namespace Program
 {
 	class Program
 	{
-		staic void Main(string[] args)
+		static void Main(string[] args)
 		{
-			Console.WriteLine("Would you like to start ?\(yes or no)");
+			Console.WriteLine("Would you like to start ?\n(yes or no)");
 			
-			answer = Console.ReadLine();
+			var answer = Console.ReadLine();
 			
 			switch (answer) 
 			{
